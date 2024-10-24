@@ -1,0 +1,139 @@
+.App {
+  background-color: rgba(31, 32, 68, 0.712);
+  background-image: -moz-element(bg.jpg);
+}
+
+.App-logo {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.navbar {
+  /* text-align: center; */
+  background-color: rgba(31, 32, 68, 0.712);
+  height: 50px;
+  padding: 20px;
+  color: white;
+  border: 2px solid yellow;
+}
+
+.App-header {
+  text-align: center;
+  background-color: rgba(31, 32, 68, 0.712);
+  height: 250px;
+  padding: 20px;
+  color: white;
+}
+
+.firstSection {
+  display: grid;
+  grid-template-columns: auto auto;
+  border: 2px solid bisque;
+}
+.App-footer {
+  background-color: rgba(31, 32, 68, 0.712);
+  height: 250px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+  background-color: rgba(31, 32, 68, 0.712);
+  color: white;
+}
+
+.App-body {
+  display: block;
+  /* grid-template-areas:
+    "personaltitle  KeySkillstitle"
+    "ProfileText  KeySkills"; */
+  font-size: large;
+  /* padding: 20px; */
+  /* background-color: rgba(31, 32, 68, 0.712); */
+}
+
+.KeySkills {
+  color: white;
+  background-color: rgba(31, 32, 68, 0.712);
+  /* border: 1px solid #c2c264; */
+  display: grid;
+  align-items: center;
+
+  /* grid-template-columns: auto-fit 1fr; */
+  padding: 15px;
+  grid-gap: 20px;
+  line-height: 30px;
+  /* border: 1px solid goldenrod; */
+  padding: 0 30px 0 50px;
+}
+
+.PersonalProfile {
+  background-color: rgba(31, 32, 68, 0.712);
+  color: white;
+  display: grid;
+  line-height: 30px;
+  align-items: center;
+  padding: 0 30px 0 50px;
+}
+
+.experiences,
+.education {
+  color: white;
+  background-color: rgba(31, 32, 68, 0.712);
+  display: grid;
+  /* grid-template-columns: 400px 400px  */
+  text-align: center;
+  font-size: large;
+  height: auto;
+}
+
+.experiences {
+  border: gold 2px solid;
+}
+.education {
+  border: rgb(73, 139, 236) 2px solid;
+}
+/* 
+.PersonalProfile{
+  grid-area: personaltitle;
+  border: 2px solid white;
+  background-color: violet;
+}
+
+.ProfileText{
+  grid-area: ProfileText;
+}
+.KeySkills {
+  grid-area: KeySkills;
+
+} */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.CYFdis {
+  border: 3px solid rgb(53, 168, 18);
+  padding-left: 80px;
+  padding-right: 80px;
+}
+/* 
+.Udacity {
+  background-color: orchid;
+  
+}
+
+.codeyourfuture {
+background-color: orange;
+} */
