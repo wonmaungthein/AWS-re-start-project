@@ -1,2 +1,3 @@
-# AWS-re-start-project
-This is a AWS RE/Start project to demonstrate my work of CI/CD pipeline with a simple website.
+# Portfolio
+
+This is my portfolio draft. I will be adding different styles step by step to make my profile looks better.

@@ -1,0 +1,199 @@
+#Home {
+  padding-top: 5%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+
+#Education {
+  /* background-color: rgb(44, 13, 182); */
+  /* margin-top: 2%; */
+  /* margin-bottom: 2%; */
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* border: solid rgb(41, 155, 79); */
+  /* height: 800px; */
+}
+
+#Employment {
+  /* background-color: rgb(223, 20, 37); */
+  /* margin-top: 2%; */
+  /* margin-bottom: 2%; */
+  padding-bottom: 5%;
+  padding-top: 5%;
+  /* border: 2px solid yellow; */
+}
+
+#fourth-section {
+  /* border: yellow solid; */
+  /* margin-top: 2%;
+  margin-bottom: 2%; */
+  padding-bottom: 5%;
+  padding-top: 5%;
+  /* background-color: peru; */
+}
+
+#fifth-section {
+  /* border: blue solid; */
+  /* margin-top: 2%;
+  margin-bottom: 2%; */
+  padding-bottom: 5%;
+  padding-top: 5%;
+  /* background-color: orangered; */
+}
+
+#sixth-section {
+  /* border: yellowgreen solid; */
+  /* margin-top: 2%;
+  margin-bottom: 2%; */
+  padding-bottom: 5%;
+  padding-top: 5%;
+  /* background-color: goldenrod; */
+}
+
+#seventh-section {
+  /* border: salmon 2px solid; */
+  /* margin-top: 2%;
+  margin-bottom: 2%; */
+  padding-bottom: 5%;
+  padding-top: 5%;
+  /* background-color: rgb(38, 78, 206); */
+}
+
+#eigth-section {
+  padding-bottom: 5%;
+  padding-top: 5%;
+  /* background-color: orchid; */
+  /* border: brown solid 2px; */
+}
+
+
+/* .profile-Skillscontainer {
+  border: slateblue 2px solid;
+}
+
+.profile-Skillscontainer .col-sm {
+  border: rgb(129, 250, 16) 2px solid;
+} */
+
+/* .Profile {
+  border: rgb(129, 250, 16) 2px solid;
+} */
+
+.aboutMe {
+  text-align: center;
+  color: white;
+  /* margin-top: 7%; */
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 100%;
+  /* border: slateblue solid 2px; */
+}
+
+.text-center {
+  color: white;
+  justify-content: center;
+}
+
+body {
+  background: url(dbg.jpg) no-repeat center center fixed;
+  /* background-color: rgb(187, 61, 3); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.col-sm {
+  color: white;
+}
+
+.btn {
+  height: 120px;
+}
+
+/* gap between rows */
+.row {
+  margin: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+
+#navbarSupportedContent {
+  /* border: tomato 2px solid; */
+  align-items: center;
+  justify-content: center;
+}
+
+#navbarSupportedContent .btn {
+  /* width: 150px; */
+  height: 60px;
+}
+
+.fixed-top {
+  background-color: rgb(3, 16, 92);
+  /* border: yellow 2px solid; */
+  /* justify-content: right; */
+  /* display: flex; */
+}
+
+.socialIcon {
+  /* border: yellow solid 2px; */
+  /* padding: 20px; */
+  /* display: inline;
+   */
+  /* display: flex;
+  align-content: space-around; */
+  /* justify-content: center; */
+}
+/* 
+
+
+.container-fluid.hi {
+  /* border: orangered 2px solid; */
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-row {
+  display: flex;
+}
+
+.modal-footer .btn {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  height: 60px !important;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center !important;
+}
+
+.header {
+  border: yellow 2px solid;
+}
+
+.navbar-default {
+  background-color: #f4bf42;
+  background-image: none;
+  justify-content: center;
+  background-repeat: no-repeat;
+  /* border: 2px solid limegreen; */
+}
+
+
+
+img {
+    width: 100%;
+    height: auto;
+}

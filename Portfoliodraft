@@ -1,0 +1,120 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+<!--changing font family, color in style-->
+<style>
+  p{color:blue;
+  font-size:25px;
+  font-family:lobster,monospace;}
+  .color-text {color:red;}
+
+  h1{font-family:lobster;
+     color:gold;}
+
+  .smaller-image{width:150px;}
+  .thick-grey-border{
+    border-style:solid;
+    border-width:10px;
+    border-color:grey;
+    border-radius:50%;
+  }
+
+  .silver-background {background-color:silver;
+  padding-left:50px;
+  padding-top: 10px;
+  padding-right:80px;
+  padding-bottom: 10px;
+  margin:-20px -20px 20px -20px;}
+
+
+  .greeting1{background-color:#F9E79F;
+    padding-top:20px;
+    padding-right:30px;
+    padding-left:200px;
+    padding-bottom:180px;
+    margin:-20px;}
+
+  #greeting{background-color:gold;
+  padding:110px 30px 80px 257px;
+  margin:-10px;}
+
+</style>
+
+<div class="silver-background">
+  <p class="blue text text-center">My Portfolio draft</p>
+</div>
+
+
+  <div>
+    <h1 class="greeting1">The subjests I am interested in</h1>
+    <ul>
+
+    </ul>
+  </div>
+
+<h2 class="color-text" id="greeting">Hello Testing</h2>
+<h1>How are you?</h1>
+<p>This will be my <a href=" http://www.yoyostorerewind.com/en/yo-yos/japan/turning-point.html">turning point</a> in my life.</p>
+
+
+
+<div class="row">
+  <div class="col-xs-2">
+    <p>Let's find out more about <a href= # "https://en.wikipedia.org/wiki/Earth"> our earth here. <img class="smaller-image thick-grey-border" src="https://www.nasa.gov/sites/default/files/1-bluemarble_west.jpg" alt="earth from space"></a></p>
+  </div>
+  <div class="col-xs-2">
+    <img src="https://photos.google.com/share/AF1QipNzX20473v6GKv-vNuNnj6bdtVjrV74dBhoi9sSepRIUZsiHJTiVFS0QhonXVjzBA?key=VnlpQTNweDBXd3NfNU10UjBQWDlBRGNGOG5US0l3">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-7">
+    <input class="form-control" type="text" placeholder="Hello World.">
+  </div>
+  <form action="/submit-word-information">
+    <div class="col-xs-6">
+      <button type="submit" required> <i class="fa fa-paper-plane">Submit </button></i>
+  </form>
+  </div>
+</div>
+
+
+<ul>
+  <li>Information Technology and Attificial Intelligent</li>
+  <li>Refugees Issues</li>
+  <li>How to recycle unnecessary or used paper</li>
+  <li>Human Rights</li>
+  <li>Sustainable Development</li>
+  <li>Community Involvement</li>
+  <li>Peace and Justice</li>
+  <li>Volunteering</li>
+</ul>
+
+
+<h1>My Strength</h1>
+  <p>
+  I think one of my strength is that my kindness to share good things, good advise, useful information to people.I am really proud of that.<br/>
+  I am determine and eager to achieve my set goals.
+  </p>
+
+<img src="http://res.cloudinary.com/won-maung-thein/image/upload/v1488760119/10177308_311921518932705_377555510493227917_n_b2aosr.jpg">
+
+<a href="https://www.facebook.com/Edinburgh-University-Myanmar-Burmese-Society-214358042022387/"> Myanmar Society </a>
+
+<label>
+  <input type="checkbox"name="personality">Love
+</label>
+
+<label>
+  <input type="checkbox"name="personality">Passion
+</label>
+
+<label>
+  <input type="checkbox"name="personality" checked >Kindness </label>
+
+<div class="row">
+  <div class="col-xs-6"><button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up">Awesome</i></button></div>
+  <div class="col-xs-6"><button class="btn btn-block btn-info"><i class="fa fa-info-circle">Info</button></i></div>
+  <div class="col-xs-6"><button class="btn btn-block btn-danger"><i class="fa fa-trash">Delete</i></button></div>
+</div>
+<p> what r u <span class="text-danger">doing</span></p>
