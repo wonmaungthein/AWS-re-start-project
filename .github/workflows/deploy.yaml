@@ -1,56 +1,27 @@
 name: Sync with S3
 
-
-
 on:
-
   push:
-
-    branches:
-
-      - main  # Change this to your main branch name if it's different
-
-
+    branches:
+      - main  # Change this to your main branch name if it's different
 
 jobs:
-
   sync:
+    runs-on: ubuntu-latest
 
-    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
+      - name: Install AWS CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y awscli
 
-
-    steps:
-
-      - name: Checkout Repository
-
-        uses: actions/checkout@v2
-
-
-
-      - name: Install AWS CLI
-
-        run: |
-
-          sudo apt-get update
-
-          sudo apt-get install -y awscli
-
-
-
-      - name: Sync with S3
-
-        env:
-
-          AWS_ACCESS_KEY_ID: ${{ secrets.AKIAWMFUO3V4PFEBNLWL }}
-
+      - name: Sync with S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AKIAWMFUO3V4PFEBNLWL }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.TE+plXfVIpmEs5pNnGSP216fiRiqhFklWgyJZd9E }}
-
           AWS_DEFAULT_REGION: eu-east-1  # Replace with your AWS region
-
-        run: |
-
-          aws s3 sync . s3://wonwebsite.co.uk/
-
-
-
+        run: |
+          aws s3 sync . s3://wonwebsite.co.uk/
