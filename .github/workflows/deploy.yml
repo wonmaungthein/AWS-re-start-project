@@ -24,4 +24,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}          
           AWS_DEFAULT_REGION: eu-west-1 # Replace with your AWS region
         run: |
-          aws s3 sync . s3://wonwebsite.co.uk/
+          aws s3 sync . s3://won-my-portfolio/AWS-re-start-project/
