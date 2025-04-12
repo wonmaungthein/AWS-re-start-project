@@ -16,6 +16,17 @@
   /* height: 800px; */
 }
 
+
+#Education .container {
+  /* background-color: rgb(44, 13, 182); */
+  /* margin-top: 2%; */
+  /* margin-bottom: 2%; */
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* border: solid rgb(41, 155, 79); */
+  /* height: 800px; */
+}
+
 #Employment {
   /* background-color: rgb(223, 20, 37); */
   /* margin-top: 2%; */
@@ -25,7 +36,7 @@
   /* border: 2px solid yellow; */
 }
 
-#fourth-section {
+#Achievement {
   /* border: yellow solid; */
   /* margin-top: 2%;
   margin-bottom: 2%; */
@@ -33,6 +44,16 @@
   padding-top: 5%;
   /* background-color: peru; */
 }
+
+#Achievement .container {
+  /* background-color: rgb(205, 63, 103); */
+
+}
+
+#Achievement .container .row3 {
+  background-color: rgb(63, 205, 77);
+}
+
 
 #fifth-section {
   /* border: blue solid; */
@@ -119,6 +140,8 @@ body {
 
 .btn {
   height: 120px;
+  /* border-color: #f4bf42 2px solid; */
+  /* text-size-adjust: ; */
 }
 
 /* gap between rows */
@@ -199,3 +222,39 @@ img {
     width: 100%;
     height: auto;
 }
+
+/* For tablets viewport */
+@media all and (max-width: 800px) {
+
+}
+
+/* For mobile viewport */
+@media all and (max-width: 500px) {
+  #Home {
+  padding-top: 15%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  /* border: solid rgb(41, 155, 79); */
+}
+}
+/* 
+  .p-c {
+width: 17em;
+}
+.project-card{
+width: 17em;
+}
+.welcome{
+height: 50vh;
+}
+.nav-item{
+width: 100%;
+}
+.about-overflow{
+padding-right: 10px;
+padding-left: 5px;
+flex-flow: column nowrap;
+align-content: center;
+align-items: center;
+justify-items: space-around;
+} */
