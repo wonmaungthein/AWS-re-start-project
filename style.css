@@ -1,94 +1,92 @@
-#Home {
-  padding-top: 5%;
-  margin-top: 4%;
-  margin-bottom: 5%;
-  /* border: solid rgb(41, 155, 79); */
-}
+/** @format */
 
+#Home {
+	padding-top: 5%;
+	margin-top: 4%;
+	/* margin-bottom: 5%; */
+	/* border: solid rgb(41, 155, 79); */
+}
 
 #Education {
-  /* background-color: rgb(44, 13, 182); */
-  /* margin-top: 2%; */
-  /* margin-bottom: 2%; */
-  padding-top: 5%;
-  padding-bottom: 5%;
-  /* border: solid rgb(41, 155, 79); */
-  /* height: 800px; */
+	/* background-color: rgb(44, 13, 182); */
+	/* margin-top: 2%; */
+	/* margin-bottom: 2%; */
+	/* padding-top: 2%; */
+	padding-bottom: 5%;
+	/* border: solid rgb(41, 155, 79); */
+	/* height: 800px; */
 }
 
-
 #Education .container {
-  /* background-color: rgb(44, 13, 182); */
-  /* margin-top: 2%; */
-  /* margin-bottom: 2%; */
-  padding-top: 5%;
-  padding-bottom: 5%;
-  /* border: solid rgb(41, 155, 79); */
-  /* height: 800px; */
+	/* background-color: rgb(44, 13, 182); */
+	/* margin-top: 2%; */
+	/* margin-bottom: 2%; */
+	padding-top: 5%;
+	padding-bottom: 5%;
+	/* border: solid rgb(41, 155, 79); */
+	/* height: 800px; */
 }
 
 #Employment {
-  /* background-color: rgb(223, 20, 37); */
-  /* margin-top: 2%; */
-  /* margin-bottom: 2%; */
-  padding-bottom: 5%;
-  padding-top: 5%;
-  /* border: 2px solid yellow; */
+	/* background-color: rgb(223, 20, 37); */
+	/* margin-top: 2%; */
+	/* margin-bottom: 2%; */
+	padding-bottom: 5%;
+	padding-top: 5%;
+	/* border: 2px solid yellow; */
 }
 
 #Achievement {
-  /* border: yellow solid; */
-  /* margin-top: 2%;
+	/* border: yellow solid; */
+	/* margin-top: 2%;
   margin-bottom: 2%; */
-  padding-bottom: 5%;
-  padding-top: 5%;
-  /* background-color: peru; */
+	padding-bottom: 5%;
+	padding-top: 5%;
+	/* background-color: peru; */
 }
 
-#Achievement .container {
-  /* background-color: rgb(205, 63, 103); */
+/* #Achievement .container { */
+/* background-color: rgb(205, 63, 103); */
 
-}
+/* } */
 
 #Achievement .container .row3 {
-  background-color: rgb(63, 205, 77);
+	background-color: rgb(63, 205, 77);
 }
 
-
 #Projects {
-  /* border: blue solid; */
-  /* margin-top: 2%;
+	/* border: blue solid; */
+	/* margin-top: 2%;
   margin-bottom: 2%; */
-  padding-bottom: 5%;
-  padding-top: 5%;
-  /* background-color: orangered; */
+	padding-bottom: 5%;
+	padding-top: 5%;
+	/* background-color: orangered; */
 }
 
 #Volunteering {
-  /* border: yellowgreen solid; */
-  /* margin-top: 2%;
+	/* border: yellowgreen solid; */
+	/* margin-top: 2%;
   margin-bottom: 2%; */
-  padding-bottom: 5%;
-  padding-top: 5%;
-  /* background-color: goldenrod; */
+	padding-bottom: 5%;
+	padding-top: 5%;
+	/* background-color: goldenrod; */
 }
 
 #Additional {
-  /* border: salmon 2px solid; */
-  /* margin-top: 2%;
+	/* border: salmon 2px solid; */
+	/* margin-top: 2%;
   margin-bottom: 2%; */
-  padding-bottom: 5%;
-  padding-top: 5%;
-  /* background-color: rgb(38, 78, 206); */
+	padding-bottom: 5%;
+	padding-top: 5%;
+	/* background-color: rgb(38, 78, 206); */
 }
 
 #Contact {
-  padding-bottom: 5%;
-  padding-top: 5%;
-  /* background-color: orchid; */
-  /* border: brown solid 2px; */
+	padding-bottom: 5%;
+	/* padding-top: 1%; */
+	/* background-color: orchid; */
+	/* border: brown solid 2px; */
 }
-
 
 /* .profile-Skillscontainer {
   border: slateblue 2px solid;
@@ -103,139 +101,140 @@
 } */
 
 .aboutMe {
-  text-align: center;
-  color: white;
-  /* margin-top: 7%; */
-  margin-bottom: 4%;
-  padding-left: 2%;
-  padding-right: 2%;
-  width: 100%;
-  /* border: slateblue solid 2px; */
+	text-align: center;
+	color: white;
+	/* margin-top: 7%; */
+	margin-bottom: 4%;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 100%;
+	/* border: slateblue solid 2px; */
 }
 
 .text-center {
-  color: white;
-  justify-content: center;
+	color: white;
+	justify-content: center;
 }
 
 body {
-  background: url(dbg.jpg) no-repeat center center fixed;
-  /* background-color: rgb(187, 61, 3); */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: relative;
+	background: url(dbg.jpg) no-repeat center center fixed;
+	/* background-color: rgb(187, 61, 3); */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
 }
 
 .logo {
-  height: 100px;
-  width: 100px;
-  border-radius: 100%;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
 }
 
 .col-sm {
-  color: white;
+	color: white;
 }
 
 .btn {
-  height: 120px;
-  /* border-color: #f4bf42 2px solid; */
-  /* text-size-adjust: ; */
+	height: 120px;
+	/* border-color: #f4bf42 2px solid; */
+	/* text-size-adjust: ; */
 }
 
 /* gap between rows */
 .row {
-  margin: 2%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+	margin: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
-
 #navbarSupportedContent {
-  /* border: tomato 2px solid; */
-  align-items: center;
-  justify-content: center;
+	/* border: tomato 2px solid; */
+	align-items: center;
+	justify-content: center;
 }
 
 #navbarSupportedContent .btn {
-  /* width: 150px; */
-  height: 60px;
+	/* width: 150px; */
+	height: 60px;
 }
 
 .fixed-top {
-  background-color: rgb(3, 16, 92);
-  /* border: yellow 2px solid; */
-  /* justify-content: right; */
-  /* display: flex; */
+	background-color: rgb(3, 16, 92);
+	/* border: yellow 2px solid; */
+	/* justify-content: right; */
+	/* display: flex; */
 }
 
-.socialIcon {
-  /* border: yellow solid 2px; */
-  /* padding: 20px; */
-  /* display: inline;
+/* .socialIcon { */
+/* border: yellow solid 2px; */
+/* padding: 20px; */
+/* display: inline;
    */
-  /* display: flex;
+/* display: flex;
   align-content: space-around; */
-  /* justify-content: center; */
-}
-/* 
-
+/* justify-content: center; */
+/* } */
 
 .container-fluid.hi {
-  /* border: orangered 2px solid; */
-  height: 15rem;
-  display: flex;
-  justify-content: center;
+	/* border: orangered 2px solid; */
+	height: 15rem;
+	display: flex;
+	justify-content: center;
 }
 
 .nav-row {
-  display: flex;
+	display: flex;
 }
 
 .modal-footer .btn {
-  padding-left: 30px !important;
-  padding-right: 30px !important;
-  height: 60px !important;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	height: 60px !important;
 }
 
 .modal-footer {
-  display: flex;
-  justify-content: center !important;
+	display: flex;
+	justify-content: center !important;
 }
 
 .header {
-  border: yellow 2px solid;
+	border: yellow 2px solid;
 }
 
 .navbar-default {
-  background-color: #f4bf42;
-  background-image: none;
-  justify-content: center;
-  background-repeat: no-repeat;
-  /* border: 2px solid limegreen; */
+	background-color: #f4bf42;
+	background-image: none;
+	justify-content: center;
+	background-repeat: no-repeat;
+	/* border: 2px solid limegreen; */
 }
 
-
-
 img {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
 
 /* For tablets viewport */
 @media all and (max-width: 800px) {
-
 }
 
 /* For mobile viewport */
 @media all and (max-width: 500px) {
-  #Home {
-  padding-top: 15%;
-  margin-top: 4%;
-  margin-bottom: 5%;
-  /* border: solid rgb(41, 155, 79); */
-}
+	#Home,
+	#Education,
+	#Employment,
+	#Achievement,
+	#Projects,
+	#Volunteering,
+	#Additional,
+	#Contact {
+		padding-top: 20%;
+		margin-top: 4%;
+		margin-bottom: 5%;
+		/* border: solid rgb(41, 155, 79); */
+	}
 }
 /* 
   .p-c {
